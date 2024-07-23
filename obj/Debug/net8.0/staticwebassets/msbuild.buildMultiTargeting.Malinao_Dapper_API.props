@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Malinao_Dapper_API.props" />
+</Project>
