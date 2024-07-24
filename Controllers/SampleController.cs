@@ -12,10 +12,10 @@ namespace Malinao_Dapper_API.Controllers
             return Ok("I am boy");
         }
          [HttpPost ("NiceToMeetYou")]
-        public IActionResult NiceToMeetYou(string YourName){
+        public IActionResult NiceToMeetYou(string ? YourName){
 
             if(string.IsNullOrEmpty(YourName)){
-                return BadRequest("Your input is empty");
+                return BadRequest("Dumb  Nigga");
             }
             else{
                 return Ok($"Nice to meet you {YourName}");
